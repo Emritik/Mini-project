@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=q">
+    <link rel="stylesheet" href="/css/sign.css">
+    <script src="/javascript/sign.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><h1>Plan Your Vacation</h1></div>
+            <div class="menu">
+                <a href="Home.html">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">About</a>
+                <a href="#">Maps</a>
+                <a href="#">Blogs</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </nav>    
+        <div class="container">
+            <div class="content">
+                <h1 class="heading">Registration Form</h1>
+                <hr>
+            </div>
+            <div class="information">
+               <Form>
+
+                Firstname: <input type="text" name="fname" id="fname" placeholder="Fullname" maxlength="50" required>
+                Lastname: <input type="text" name="lname" id="lname" placeholder="Lastname" maxlength="50" required>
+                E-Mail: <input type="email" name="email" id="mail" placeholder="xyz@yahoo.com" required>
+                Password: <input type="password" name="password" id="password"  placeholder="A-Z,a-z,1-9,@,#,$,%,....." maxlength="16" value="" required>
+                Confirmed Password: <input type="password" name="cpassword" id="confirm-password" value="" ondragover="check()" required maxlength="16">
+                <p id="print"></p>
+                Phone-No: <input type="tel" name="phone" id="phone" value="" placeholder="+0123456789" maxlength="16" required>
+                <input type="button" value="OTP Send" required"><p class="para" ></p>
+                DOB: <input type="date" name="date" id="date" value="" required>
+                Gender: <input type="radio" name="sa" id="sa" value="male">male <input type="radio" name="sa" id="" value="male">female
+                <input type="checkbox" name="" id="">
+               </Form>
+            </div>
+        </div>
+
+
+
+</body>
+</html>
