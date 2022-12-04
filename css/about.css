@@ -1,0 +1,97 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav {
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.954);
+    color: rgb(19, 238, 114);
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav .logo {
+    width: 25%;    
+    text-align: center;
+}
+
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    transition: all ease 0.7s;
+}
+.menu a:hover {
+    color: rgb(19, 238, 114);
+}
+.heading {
+    font-size: 55px;
+    font-weight: 600;
+}
+.main-content {
+    
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: aqua;
+    width: 83%;
+    transition: all 0.9s ease;
+    height: 50vh;
+    box-shadow: 10px 10px 10px black;
+    margin: 50px 0px 0px 200px;
+    clear: both;
+}
+.text-content {
+    width: 60%;
+    margin: 10px 0px 0px 20px;
+    float: left;
+    
+}
+
+.image-content {
+    width: 30%;
+    margin: 10px;
+    float: right;
+}
+.main-content1 {
+    box-sizing: border-box;
+    transition: all 0.9s ease;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: aqua;
+    width: 83%;
+    height: 50vh;
+    box-shadow: -10px 10px 10px black;
+    margin: 20px 200px 0px 30px;
+    clear: both;
+} 
+.image-content1 {
+    width: 30%;
+    margin: 20px 0px 0px 40px;
+    float: left;
+}
+.text-content1 {
+    width: 60%;
+    position: relative;
+    margin: 20px 0px 0px 70px;
+    float: right;
+    
+}
+.main-content:hover {
+    background-color: rgb(235, 54, 84);
+    transition: all 0.9s ease;
+    box-shadow: -10px 10px 10px black;
+} 
+.main-content1:hover {
+    background-color: rgb(235, 54, 84);
+    transition: all 0.9s ease;
+    box-shadow: 10px 10px 10px black;
+}   
