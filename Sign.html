@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1, initial-scale=q">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
     <link rel="stylesheet" href="/css/sign.css">
-    <link href="https://fonts.googleapis.com/css?family=josefin+Sans&display=swap" rel="stylesheet">
     <script src="/javascript/sign.js"></script>
     <title>Signup</title>
 </head>
@@ -16,7 +15,7 @@
             <div class="menu">
                 <a href="Home.html">Home</a>
                 <a href="#">Menu</a>
-                <a href="About.html">About</a>
+                <a href="about.html">About</a>
                 <a href="#">Maps</a>
                 <a href="#">Blogs</a>
                 <a href="Contact.html">Contact</a>
@@ -28,22 +27,21 @@
                 <hr>
             </div>
             <div class="information">
-               <Form>
-
-                <label for="">Name:</label> <input type="text" name="fname" id="fname" placeholder="Name" maxlength="50" required><br>
-                <label for="">E-Mail:</label> <input type="email" name="email" id="mail" placeholder="xyz@yahoo.com" required><br>
-                <label for="">Password:</label> <input type="password" class="pass" name="password" id="password"  placeholder="A-Z,a-z,1-9,@,#,$,%,....." maxlength="16" value="" required><br>
-                <label for="">Confirmed Password:</label> <input type="password" placeholder="********" class="cpass" name="cpassword" id="confirm-password" value="" onchange="check()" required maxlength="16"><br>
-                <p id="print"></p><br>
-                <label for="">Phone-No:</label> <input type="tel" name="phone" id="phone" value="" placeholder="+0123456789" maxlength="16" required> 
-                <input type="button" value="OTP Send" required"><p class="para" ></p><br>
-                <label for="">DOB:</label> <input type="date" name="date" id="date" value="" required><br>
-                <input type="checkbox" name="check" id="check" value=""><a href="#">Terms and Condition.</a><br>
-                <button type="submit">Submit</button><button type="reset">Reset</button>
-               </Form>
+                <form >
+                    <label>Name:</label> <input type="text" name="fname" id="fname" placeholder="  Name" alt="Name" maxlength="50" required /><br>
+                    <label>E-Mail:</label> <input type="email" name="email" id="mail" placeholder="  xyz@yahoo.com" required /><br>
+                    <label>Password:</label> <input type="password" class="pass" name="password" id="password"  placeholder="  ********" maxlength="16" value="" required /><br>
+                    <label>Confirmed Password:</label> <input type="password" placeholder="  ********" class="cpass" name="cpassword" id="confirm-password" value="" onchange="display();"  required maxlength="16" />
+                    <p id="print"></p><br>
+                    <label>Phone-No:</label> <input type="tel" name="phone" id="phone" value="" onchange="num();" placeholder="  +0123456789" maxlength="13" required> 
+                    <p id="tels" ></p><br>
+                    <label>DOB:</label> <input type="date" name="date" id="date" value="" onchange="datechecker();" required /><br>
+                     <p id="age"></p>
+                    <button type="submit" id="dis" onclick="submit();">Submit</button><button type="reset">Reset</button>
+              
+                </form>              
             </div>
         </div>
-
 
 
 </body>
