@@ -127,3 +127,119 @@ section .btntwo {
 h3{
     text-align: center;
 }
+
+.header {
+    width: 100%; 
+    height: 65vh;
+    background-image: url(../images/blue.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.whole-section {
+    box-sizing: border-box;
+    box-shadow: 1px;
+    border: 1px solid #000;
+    width: 90%;
+    height: 45vh;
+    margin: 0px 0px 0px 70px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.min-section {
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px #000;
+    border: 1px solid #000;
+    width: 79%;
+    height: 12vh;
+    z-index: 1;
+    margin: -40px 0px 0px 130px;
+    border-radius: 20px;
+    background-color: #fff;
+    word-spacing: 80px;
+}
+.min-section a {
+    text-decoration: none;  
+}
+
+.main-section {
+    box-sizing: border-box;
+    width: 87%;
+    height: 40vh;
+    margin: 0px 0px 0px 70px;
+    flex-direction: row;
+    display: flex;
+}
+.max-section1 {
+    box-sizing: border-box;
+    box-shadow: 1px;
+    border: 1px solid grey;
+    width: 30%;
+    height: 20vh;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.max-section2 {
+    box-sizing: border-box;
+    box-shadow: 1px;
+    border: 1px solid grey;
+    width: 30%;
+    height: 20vh;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.max-section3 {
+    box-sizing: border-box;
+    box-shadow: 1px;
+    border: 1px solid grey;
+    width: 20%;
+    height: 20vh;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.max-section4 {
+    box-sizing: border-box;
+    box-shadow: 1px;
+    border: 1px solid grey;
+    width: 20%;
+    height: 20vh;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.sel {
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.sel1 {
+    font-size: 23px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.more {
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+}
+.app-info {
+    box-sizing: border-box;
+    box-shadow: 6px 6px 10px 10px grey;
+    border: 1px solid #000;
+    width: 60%;
+    height: 95vh;
+    margin: 0px 0px 0px 250px;
+    border-radius: 20px;
+    background-color: rgba(218, 14, 14, 0.116);
+}
+.text {
+    margin: 10px 0px 0px 30px;
+    font-size: 18px;
+}
+.head {
+    font-size: 56px;
+    font-weight: 900;
+}
+.img {
+    margin-left: 60px;
+    flex-basis: 45%;
+}
