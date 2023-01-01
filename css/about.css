@@ -79,11 +79,10 @@ nav .menu a {
     float: left;
 }
 .text-content1 {
-    width: 60%;
+    width: 58%;
     position: relative;
     margin: 20px 0px 0px 70px;
     float: right;
-    
 }
 .main-content:hover {
     background-color: rgb(235, 54, 84);
