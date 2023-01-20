@@ -29,7 +29,7 @@ nav .menu a{
     color: white;
     transition: all ease 0.7s;
 }
-.menu a:hover {
+.menu a:hover{
     color: rgb(19, 238, 114);
 }
 .heading {
