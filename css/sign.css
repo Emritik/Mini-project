@@ -21,12 +21,12 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-nav .logo {
+nav .logo{
     width: 25%;    
     text-align: center;
 }
 
-nav .menu{
+nav .menu {
     width: 40%;
     display: flex;
     justify-content: space-around;
