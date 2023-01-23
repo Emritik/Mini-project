@@ -37,7 +37,7 @@ nav .menu a{
     color: white;
     transition: all ease 0.7s;
 }
-.menu a:hover {
+.menu a:hover{
     color: #000;
 }
 .container  {
