@@ -1,10 +1,9 @@
-* {
+*{
     font-family: 'Josefin Sans', sans-serif;
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;   
 }
-nav {
+nav{
     width: 100%;
     height: 15vh;
     background-color: rgba(0, 0, 0, 0.954);
@@ -14,7 +13,7 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-nav .logo {
+nav .logo{
     width: 25%;    
     text-align: center;
 }
@@ -24,16 +23,16 @@ nav .menu{
     display: flex;
     justify-content: space-around;
 }
-nav .menu a {
+nav .menu a{
     width: 25%;
     text-decoration: none;
     color: white;
     transition: all ease 0.7s;
 }
-.menu a:hover {
+.menu a:hover{
     color: rgb(19, 238, 114);
 }
-.heading {
+.heading{
     font-size: 55px;
     font-weight: 600;
 }

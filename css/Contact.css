@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
 }
-nav{
+nav {
     width: 100%;
     word-spacing: 5px;
     margin-top: 5px;
 }
-section a{
+section a {
     
     font-size: 22px;
     font-weight: 500;
@@ -19,19 +19,19 @@ section a{
     border-radius: 10px;
     transition: all .7s ease;
 }
-section .log{
+section .log {
     background-color: aquamarine;
     color: #000;
 }
-section .sign{
+section .sign {
     background-color: aquamarine;
     color: #000;
 }
-.log:hover{
+.log:hover {
     background-color: #00b894;
     color: black;
 }
-.sign:hover{
+.sign:hover {
     background-color: #00b894;
     color: #000;
 }

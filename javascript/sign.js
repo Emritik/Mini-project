@@ -32,6 +32,7 @@ function display()
     document.getElementById("print").innerHTML=txt;
 
 }
+
 function num()
 {
     var tel = document.getElementById("phone").value;
